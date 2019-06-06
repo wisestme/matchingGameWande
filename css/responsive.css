@@ -1,0 +1,60 @@
+@media screen and (min-width: 420px){
+.score-panel {
+	width: 80%;
+	font-size: 20px;
+	
+}
+.deck {
+	padding: 0.3em;
+}
+.deck .card {
+    height: 12vh;
+    width: 22vw;
+    margin: 2px;
+}
+.modal-content span{
+    font-size: 30px;
+}
+.modal-content .stars li {
+  	font-size: 30px;
+}
+}
+@media screen and (min-width: 500px) {
+h1 {
+	font-weight: 600;
+}
+
+.container {
+		width: 500px;
+		margin-right: auto;
+		margin-left: auto;
+}
+.deck {
+	width: 95%;
+}
+.deck .card {
+    height: 95px;
+    width: 95px;
+    margin: 2px;
+}
+
+.modal4-content {
+    max-width: 400px;
+}
+.modal2-content {
+    max-width: 480px;
+}
+
+.modal3-content {
+	max-width: 400px;
+}
+
+.play-again-no {
+	top: 30px;
+}
+
+.play-again-yes {
+	top: 30px;
+}
+
+

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+     <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                 <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <span class="total-moves">
+            	<span class="moves">0</span> <span class="pluralize">Move</span> <!--added for pluralization-->
+            </span>           
+            <span class="time">
+                &nbsp &nbsp 
+                <span class="minutes">00</span> <sub class="sub-minutes">m</sub>: 
+                <span class="seconds">00</span>
+                <sub class="sub-seconds">s</sub> 
+            </span>
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            
+        </ul>
+    </div>
+    <div id="modal-container" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>congratulations!!! All cards matched with:</p>
+            <p class="total-time"> Time Elapsed is:</p>
+            <p class="rank">Your rating is:</p>
+        </div>
+    </div>
+    <div id="modal2-container" class="modal2">
+        <div class="modal2-content">
+            <h1>Google Udacity Scholar</h1>
+            <h2>Project: Matching Game</h2>
+            <h3>Designed by: Chijioke Nwagwu</h3>
+            <h3>Dedicated to: Bro Wande Majekodunmi (Director Ativo Limited)</h3>
+            <ul>
+            	<li>click on a card to reveal its content.</li>
+            	<li>a move is counted against you for each pair you reveal</li>
+            	<li>match the cards with the least possible moves to get maximum stars</li>
+            </ul>
+            <p>Goodluck!!!</p>
+            <p>Once you are ready, click start to play</p>
+            <button class="start-btn">Start</span>
+        </div>
+    </div>
+    <div id="modal3-container" class="modal3">
+        <div class="modal3-content">
+            <h1>Restart Game?</h1>
+            <button class="start-yes">Yes</span>
+            <button class="start-no">No</span>
+        </div>
+    </div>
+    <div id="modal4-container" class="modal4">
+        <div class="modal4-content">
+            <h1>Play Again?
+            <button class="play-again-yes">Yes</span>
+            <button class="play-again-no">No</span>
+            	</h1>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
