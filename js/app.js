@@ -100,7 +100,7 @@ closeModal.addEventListener('click', function() {
 // close the instruction and start screen
 closeModal2.addEventListener('click', hideModal2);
 
-setTimeout(initialHide, 10000)
+
 
 // Restart decline
 restartNo.addEventListener('click', function() {
@@ -307,6 +307,7 @@ function hideModal2() {
 	modal2.style.display = 'none';
 	latest();
 	initialOpen();
+	setTimeout(initialHide, 10000)
 }
 
 // Display Modal3
