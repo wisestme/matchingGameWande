@@ -4,7 +4,7 @@
 ## Table of Contents
 
 ## Purpose: 
-* ### Part of the requirements for completing my Nanodegree Google scholarship program at Udacity.
+* ### Upgrade to my Udacity Nanodegree matching game project based on the recomendation from my frien Wande.
 
 * ### To display my ability to traverse and manipulate the DOM.
 
