@@ -28,3 +28,6 @@ Using JavaScript, CSS and HTML, i turned the static starter code into a responsi
 
 
 * [Contributing](#contributing)
+
+## Play Now:
+https://wisestme.github.io/matchingGameWande/
